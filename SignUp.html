@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<style type="text/css">
+		h1 {
+			color: blue;
+		}
+
+	</style>
+</head>
+<body>
+<form>
+	<h1>Sign Up</h1>
+	<div>
+		<label for="fname">First Name:</label>
+			<input id="fname" type="text" name="fname" placeholder="DUDU" required="">
+		<label for="lname">Last Name:</label>
+			<input id="lname" type="text" name="lname" required="" placeholder="Dhopdhopi">
+	</div>
+
+	<div>
+		<label for="m">Male</label>
+			<input type="radio" name="Gender" value="male">
+		<label for="f">Female</label>
+			<input type="radio" name="Gender" value="female">
+		<label for="o">Other</label>
+			<input type="radio" name="Gender" value="other">
+	</div>
+
+	<div>
+		<label for="email">Email:</label>
+			<input id="email" type="email" name="email" placeholder="Email" required="">
+		<label for="pwd">Password:</label>
+			<input id="pwd" type="password" placeholder="Password" pattern=".{6,}" name="pwd" required="" title="Please enter a minimum of 6 characters">
+	</div>
+
+	<input type="submit" name="">
+</form>	
+
+</body>
+</html>
